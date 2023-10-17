@@ -1,7 +1,7 @@
-'use client';
+// 'use client';
 import Cart from '@/app/Components/UI/Cart/index';
 import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
+// import { useRouter, useSearchParams } from 'next/navigation';
 const api = 'https://omdbapi.com/?apikey=2449ad88&s=';
 const getCourses = async (keyword) => {
     try {
@@ -17,9 +17,9 @@ const getCourses = async (keyword) => {
     }
 };
 export default async function Home() {
-    const searchParams = useSearchParams();
-    const search = searchParams.get('s');
-    const keyword = search || 'spider man';
+    // const searchParams = useSearchParams();
+    // const search = searchParams.get('s');
+    const keyword = 'spider man';
 
     const res = await getCourses(keyword);
     return (
