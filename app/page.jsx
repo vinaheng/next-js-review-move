@@ -1,5 +1,5 @@
 'use client';
-import Cart from '@/Components/UI/Cart';
+import Cart from '@/app/Components/UI/Cart/index';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 const api = 'https://omdbapi.com/?apikey=2449ad88&s=';

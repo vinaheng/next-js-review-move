@@ -1,5 +1,5 @@
 import './globals.css';
-import Header from '@/Components/UI/Header';
+import Header from '@/app/Components/UI/Header';
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
